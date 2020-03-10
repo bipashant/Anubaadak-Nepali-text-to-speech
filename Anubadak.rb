@@ -1,6 +1,5 @@
-
-
-
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 def split_word_into_letter main_word
 
   letters = main_word.split('')
